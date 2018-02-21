@@ -19,4 +19,4 @@ groceryItemStore.onChange(function(items) {
     render();
 })
 
-render();
+render(); 

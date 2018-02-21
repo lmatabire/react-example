@@ -28,6 +28,7 @@ module.exports = createReactClass ({
             <form onSubmit={this.addItem}>
                 <input
                     value={this.state.input}
+                    type='text'
                     onChange={this.handleInputName}
                     placeholder='Add item' />
                 <button>Add Item</button>
